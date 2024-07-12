@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="my.css" />
   </head>
   <body>
-     class="container">
+    <div class="container">
       <h1>Музыкальный плеер</h1>
       <div class="player">
         <audio id="audioPlayer" controls>
@@ -17,7 +17,7 @@
         <select id="trackList">
           <!-- Опции будут добавлены через JavaScript -->
         </select>
-      
+      </div>
     </div>
     <script src="my.js"></script>
   </body>
